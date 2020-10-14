@@ -1,0 +1,2 @@
+// This will whisper the GM with buttons named Start and End that both call some macro
+/w gm &{template:default} {{name=My Menu Name}} {{Menu=[Start](!&#13;#MyStartMacro)[End](!&#13;#MyEndMacro)}}
